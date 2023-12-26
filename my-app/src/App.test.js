@@ -1,8 +1,9 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+const Footer = () => {
+  return (  
+      <div className="md-0 text-center">
+          <p>footer ako</p>
+      </div>
+  );
+}
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+export default Footer;
