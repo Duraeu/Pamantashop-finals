@@ -25,16 +25,14 @@
   letter-spacing: 2px;
   position: static;
   right: 0;
+  font-weight: bold;
 }
 
 .navbar .links{
   position: absolute;
   right: 0;
 }
-.navbar .links ul{
-  list-style:none;
-  padding-top: 7px;
-}
+
 
 .navbar .links li{
   display: inline;

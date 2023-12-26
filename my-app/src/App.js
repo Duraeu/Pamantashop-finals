@@ -4,10 +4,6 @@ import Home from './Home.js';
 import Footer from './Footer.js';
 
 function App() {
-  const title='welcome to my website';
-  const likes = 50;
-  const person = {};
-  const link = "https://www.google.com";
   return (
     <div className="App">
       <Navbar />
@@ -18,8 +14,11 @@ function App() {
       </div>
       
       <Footer />
+      <h1 className="text-2xl font-bold text-blue-600">Hello, Tailwind CSS!</h1>
     </div>
-  );
+
+    
+);
 }
 
 export default App;

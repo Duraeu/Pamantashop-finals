@@ -15,7 +15,7 @@ const [friends, setFriends] = useState([
             {friends.map((friends) => 
             <div className="friends-preview" key={friends.id}>
             <h1>{friends.title}</h1>
-            <h2>Made by {friends.author}</h2>
+            <h2 className="text-2xl font-bold text-blue-600">Made by {friends.author}</h2>
             <p>{friends.body}</p>
             </div>
             )}
