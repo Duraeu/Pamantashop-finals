@@ -1,24 +1,17 @@
-import './App.css';
-import Navbar from './Navbar.js';
-import Home from './Home.js';
-import Footer from './Footer.js';
+// App.js
+import React from 'react';
+import AppRouter from './AppRouter';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-
-      <div className="content">
-      <Home />
-      <Home />
-      </div>
-      
+       <Navbar />
+      <AppRouter />
       <Footer />
-      <h1 className="text-2xl font-bold text-blue-600">Hello, Tailwind CSS!</h1>
     </div>
-
-    
-);
+  );
 }
 
 export default App;
