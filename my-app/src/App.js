@@ -3,18 +3,30 @@ import React from 'react';
 import AppRouter from './AppRouter';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import AuthComponent from './components/AuthComponent';
+import SearchBar from './components/SearchBar';
+
 
 function App() {
+
+  const handleSearch = (searchTerm) => {
+    // Implement your search logic here
+    console.log(`Searching for: ${searchTerm}`);
+  };
+
   return (
     <div className="App">
-      <div className=''>
+      <div>
        <Navbar />
-        
-        <div className='flex-grow'>
+        <div className='Content flex-grow'>
+          <SearchBar onSearch={handleSearch} />
           <AppRouter />
-        
-        </div>  
-      <Footer />
+        </div> 
+
+        <div className='Footer'> 
+          <Footer />
+        </div>
+
       </div>
     </div>
   );

@@ -45,27 +45,38 @@
   font-weight: bold;
 }
 
-.content{
-  border-bottom: 2px solid black;
+.Content{
   margin: 0 3rem;
   padding: 30px 0;
   position: flex;
   display: block;
+  text-align: center;
 }
 
-
-.friends-preview{
-  padding: 10px;
-  border: 2px solid black;
-  left: 0;
-  margin: 1rem 0;
+.Footer {
+  margin: 0 3rem;
+  padding: 30px 0;
   position: flex;
+  display: block;
+  text-align: center;
 }
+ .FormLogin h2, label{
+  background-color: #A4826D;
+  color: white;
+ }
 
-.friends-preview:hover{
-  box-shadow: 5px 10px #000000;
-}
+ .FormLogin p{
+  color: white;
+  background-color: #A4826D;
+ }
+ .FormLogin form{
+  color: white;
+  background-color: #A4826D;
+ }
 
-.friends-preview h2{
-  font-size: 20px;
-}
+ .FormLogin input{
+  margin: 2px;
+  border-radius: 10px;
+  border: 2px solid black;
+  color: black;
+ }
