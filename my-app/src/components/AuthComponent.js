@@ -34,7 +34,7 @@ const AuthComponent = () => {
         <br />
         <button type="submit">{isSignUp ? 'Sign Up' : 'Login'}</button>
       </form>
-      <p onClick={handleToggleMode}>
+      <p className='cursor-pointer pt-1' onClick={handleToggleMode}>
         {isSignUp ? 'Already have an account? Log in.' : 'Don\'t have an account? Sign up.'}
       </p>
     </div>

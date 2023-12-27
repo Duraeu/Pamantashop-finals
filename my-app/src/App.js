@@ -18,7 +18,7 @@ function App() {
     <div className="App">
       <div>
        <Navbar />
-        <div className='Content flex-grow'>
+        <div className='Content flex-grow h-dvh'>
           <SearchBar onSearch={handleSearch} />
           <AppRouter />
         </div> 

@@ -1,8 +1,8 @@
 const Footer = () => {
     return (  
-        <div className="columns-2 p-6 m-5">
-            <p>footer ako</p>
-            <p>footer ako</p>
+        <div className="grid grid-cols-2 p-5 m-5 gap-1 text-center">
+            <div className="w-1/2 hover:w-full">footer ako</div>
+            <div className="w-24">footer ako</div>
         </div>
     );
 }
