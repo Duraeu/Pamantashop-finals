@@ -6,7 +6,13 @@ import Footer from './components/Footer';
 import AuthComponent from './components/AuthComponent';
 import SearchBar from './components/SearchBar';
 
+const app = require('express')();
+const PORT = 8080;
 
+app.listen(
+  PORT,
+  () => console.log('it is alive on http://localhost:${PORT}')
+)
 function App() {
 
   const handleSearch = (searchTerm) => {
