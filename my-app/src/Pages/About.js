@@ -3,7 +3,8 @@ import React from 'react';
 const About = () => {
   return (
     <div>
-      <p className='text-blue-800'>This is the Duraemond.</p>
+      <p className='text-blue-800'>This is the Duraemond. heu</p>
+      <p> Eeeeoeoeo</p>
     </div>
   );
 };
